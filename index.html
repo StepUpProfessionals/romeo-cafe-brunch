@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romeo — Café Brunch Pet Friendly · Medellín</title>
+    <meta name="description" content="Romeo Brunch & Café en Laureles, Medellín. Brunch artesanal, café de especialidad y un espacio pet friendly pensado para compartir, relajarse y volver.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ========================================
+         NAVIGATION
+    ========================================= -->
+    <header class="site-header" id="siteHeader">
+        <div class="container header-inner">
+            <a href="#" class="logo">
+                <span class="logo-name">Romeo</span>
+                <span class="logo-tagline">Pet friendly · Brunch · Café de especialidad</span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">Nosotros</a></li>
+                    <li><a href="#offerings" class="nav-link">Menú</a></li>
+                    <li><a href="#promo" class="nav-link">Especial</a></li>
+                    <li><a href="#gallery" class="nav-link">Galería</a></li>
+                    <li><a href="#find-us" class="nav-link">Encuéntranos</a></li>
+                    <li><a href="#contact" class="nav-cta">Reservar mesa</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+
+    <!-- ========================================
+         1. HERO — Full impact visual
+    ========================================= -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <img src="assets/hero-bg.jpg" alt="{{Luna Brava Café Bar}} — Café Brunch Pet Friendly en Medellín" class="hero-bg" onerror="this.style.display='none';">
+        <div class="container hero-inner">
+            <p class="hero-label">Café Brunch Pet Friendly · Laureles, Medellín</p>
+            <h1 class="hero-title">Brunch con tu mascota, en un lugar hecho para quedarse</h1>
+            <p class="hero-subtitle">Disfrute brunch artesanal, café de especialidad y un ambiente acogedor donde usted y su mascota son bienvenidos de verdad. Ideal para desayunar tarde, compartir y volver sin prisa.</p>
+            <div class="hero-actions">
+                <a href="https://maps.google.com" class="btn btn-primary" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    Visítanos
+                </a>
+                <a href="https://wa.me/573001112233?text=Hola,%20quiero%20reservar%20en%20Romeo%20Brunch%20y%20Caf%C3%A9" class="btn btn-secondary" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                    </svg>
+                    WhatsApp
+                </a>
+            </div>
+            <div class="hero-hours">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Abierto de martes a domingo · 8:00 a.m. a 6:00 p.m.
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         2. NUESTRA HISTORIA
+    ========================================= -->
+    <section class="about" id="about">
+        <div class="container about-inner">
+            <div class="about-image-wrapper">
+                <div class="about-image-container">
+                    <img src="assets/about.jpg" alt="Nuestra historia — {{Luna Brava Café Bar}}" class="about-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                    <div class="image-placeholder">
+                        <span class="placeholder-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+                        </span>
+                        <span class="placeholder-label">Foto del lugar<br><small>about.jpg</small></span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content">
+                <p class="section-label">Nuestra esencia</p>
+                <h2 class="section-title">Más que un café: un espacio para compartir con calma</h2>
+                <p class="about-text">Romeo Brunch & Café nació para crear una experiencia cálida y diferente en Medellín: un lugar donde el brunch artesanal, el café de especialidad y el amor por las mascotas conviven en un ambiente pensado para disfrutar sin afán.</p>
+                <p class="about-text">Aquí cada detalle está pensado para que la visita se sienta especial: sabores frescos, espacios acogedores, atención amable y un entorno donde venir con su mascota también hace parte del plan.</p>
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <span class="highlight-icon">🐾</span>
+                        <span class="highlight-text">Espacio pet friendly real, cómodo y acogedor</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">🥑</span>
+                        <span class="highlight-text">Brunch artesanal con opciones frescas y memorables</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">☕</span>
+                        <span class="highlight-text">Café de especialidad preparado con cuidado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         3. LO QUE OFRECEMOS
+    ========================================= -->
+    <section class="offerings" id="offerings">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Nuestro menú</p>
+                <h2 class="section-title">Sabores que invitan a quedarse</h2>
+                <p class="section-intro">Desde tostadas artesanales hasta bowls energéticos y bebidas especiales, nuestro menú está pensado para acompañar momentos tranquilos, conversaciones largas y visitas que valen la pena repetir.</p>
+            </div>
+            <div class="offerings-grid">
+                <div class="offering-card" data-animate>
+                    <div class="offering-image-container">
+                        <img src="assets/producto-1.jpg" alt="Tostadas artesanales" class="offering-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                        <div class="image-placeholder">
+                            <span class="placeholder-label">Foto<br><small>producto-1.jpg</small></span>
+                        </div>
+                    </div>
+                    <div class="offering-info">
+                        <h3 class="offering-title">Tostadas artesanales</h3>
+                        <p class="offering-desc">Preparaciones frescas con ingredientes seleccionados, combinaciones equilibradas y presentación cuidada para disfrutar un brunch con personalidad.</p>
+                    </div>
+                </div>
+                <div class="offering-card" data-animate>
+                    <div class="offering-image-container">
+                        <img src="assets/producto-2.jpg" alt="Bowls energéticos" class="offering-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                        <div class="image-placeholder">
+                            <span class="placeholder-label">Foto<br><small>producto-2.jpg</small></span>
+                        </div>
+                    </div>
+                    <div class="offering-info">
+                        <h3 class="offering-title">Bowls energéticos</h3>
+                        <p class="offering-desc">Opciones coloridas, nutritivas y deliciosas con frutas, granola, semillas y bases suaves para un desayuno o merienda ligera.</p>
+                    </div>
+                </div>
+                <div class="offering-card" data-animate>
+                    <div class="offering-image-container">
+                        <img src="assets/producto-3.jpg" alt="Café de especialidad" class="offering-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                        <div class="image-placeholder">
+                            <span class="placeholder-label">Foto<br><small>producto-3.jpg</small></span>
+                        </div>
+                    </div>
+                    <div class="offering-info">
+                        <h3 class="offering-title">Café de especialidad</h3>
+                        <p class="offering-desc">Espresso, cappuccino, filtrados y bebidas calientes preparadas para quienes valoran el sabor, el aroma y una buena pausa.</p>
+                    </div>
+                </div>
+                <div class="offering-card" data-animate>
+                    <div class="offering-image-container">
+                        <img src="assets/producto-4.jpg" alt="Momentos pet friendly" class="offering-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                        <div class="image-placeholder">
+                            <span class="placeholder-label">Foto<br><small>producto-4.jpg</small></span>
+                        </div>
+                    </div>
+                    <div class="offering-info">
+                        <h3 class="offering-title">Momentos pet friendly</h3>
+                        <p class="offering-desc">Un espacio donde compartir con su mascota también hace parte de la experiencia, en un ambiente tranquilo, amable y pensado para quedarse.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         4. ESPECIAL DE LA SEMANA
+    ========================================= -->
+    <section class="promo" id="promo">
+        <div class="container promo-inner">
+            <div class="promo-content">
+                <p class="promo-badge">Recomendado de la casa</p>
+                <h2 class="promo-title">Brunch para compartir</h2>
+                <p class="promo-desc">Visítenos y disfrute una experiencia de brunch con tostadas artesanales, café especial y un espacio ideal para venir con su mascota.</p>
+                <p class="promo-validity">Disponible durante horario de atención · Sujeto a disponibilidad</p>
+                <a href="https://wa.me/573001112233?text=Hola,%20quiero%20conocer%20la%20promoci%C3%B3n%20de%20Romeo%20Brunch%20y%20Caf%C3%A9" class="btn btn-primary" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                    </svg>
+                    Reserva tu promo
+                </a>
+            </div>
+            <div class="promo-image-container">
+                <img src="assets/promo.jpg" alt="Brunch para compartir" class="promo-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                <div class="image-placeholder">
+                    <span class="placeholder-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+                    </span>
+                    <span class="placeholder-label">Foto promo<br><small>promo.jpg</small></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         5. GALERÍA
+    ========================================= -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Nuestro espacio</p>
+                <h2 class="section-title">Descubra el ambiente que invita a volver</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-item--large" data-animate>
+                    <img src="assets/galeria-1.jpg" alt="{{Luna Brava Café Bar}} — Galería" class="gallery-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                    <div class="image-placeholder"><span class="placeholder-label">galeria-1.jpg</span></div>
+                </div>
+                <div class="gallery-item" data-animate>
+                    <img src="assets/galeria-2.jpg" alt="{{Luna Brava Café Bar}} — Galería" class="gallery-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                    <div class="image-placeholder"><span class="placeholder-label">galeria-2.jpg</span></div>
+                </div>
+                <div class="gallery-item" data-animate>
+                    <img src="assets/galeria-3.jpg" alt="{{Luna Brava Café Bar}} — Galería" class="gallery-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                    <div class="image-placeholder"><span class="placeholder-label">galeria-3.jpg</span></div>
+                </div>
+                <div class="gallery-item" data-animate>
+                    <img src="assets/galeria-4.jpg" alt="{{Luna Brava Café Bar}} — Galería" class="gallery-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                    <div class="image-placeholder"><span class="placeholder-label">galeria-4.jpg</span></div>
+                </div>
+                <div class="gallery-item" data-animate>
+                    <img src="assets/galeria-5.jpg" alt="{{Luna Brava Café Bar}} — Galería" class="gallery-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                    <div class="image-placeholder"><span class="placeholder-label">galeria-5.jpg</span></div>
+                </div>
+                <div class="gallery-item gallery-item--large" data-animate>
+                    <img src="assets/galeria-6.jpg" alt="{{Luna Brava Café Bar}} — Galería" class="gallery-image" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-active');">
+                    <div class="image-placeholder"><span class="placeholder-label">galeria-6.jpg</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         6. ENCUÉNTRANOS
+    ========================================= -->
+    <section class="find-us" id="find-us">
+        <div class="container find-us-inner">
+            <div class="find-us-info">
+                <p class="section-label">Ven a visitarnos</p>
+                <h2 class="section-title">Encuéntranos</h2>
+                
+                <div class="info-block">
+                    <div class="info-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <div>
+                        <p class="info-label">Dirección</p>
+                        <p class="info-text">Calle 33 #76-18<br>Laureles · Medellín, Antioquia</p>
+                    </div>
+                </div>
+
+                <div class="info-block">
+                    <div class="info-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <div>
+                        <p class="info-label">Horarios</p>
+                        <p class="info-text">Martes a jueves: 8:00 a.m. – 6:00 p.m.<br>Viernes y sábado: 8:00 a.m. – 6:00 p.m.<br>Domingo: 9:00 a.m. – 5:00 p.m.</p>
+                    </div>
+                </div>
+
+                <div class="info-block">
+                    <div class="info-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                    </div>
+                    <div>
+                        <p class="info-label">Contacto</p>
+                        <p class="info-text">+57 300 111 2233</p>
+                    </div>
+                </div>
+
+                <a href="https://maps.google.com" class="btn btn-primary" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Cómo llegar
+                </a>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         7. SÍGUENOS + CTA FINAL
+    ========================================= -->
+    <section class="final-cta" id="contact">
+        <div class="container final-cta-inner">
+            <div class="social-section">
+                <p class="section-label">Síguenos</p>
+                <h2 class="section-title">Síganos y descubra la experiencia Romeo</h2>
+                <p class="social-text">Nuevos platos, bebidas especiales, espacios acogedores y momentos pet friendly que hacen de cada visita un plan para repetir.</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/romeobrunchycafe" class="social-link" target="_blank" rel="noopener">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        @romeobrunchycafe
+                    </a>
+                    <a href="https://www.tiktok.com/@romeobrunchycafe" class="social-link" target="_blank" rel="noopener">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.52a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.44V13a8.16 8.16 0 005.58 2.2V11.7a4.85 4.85 0 01-3.77-1.24V6.69h3.77z"/></svg>
+                        @romeobrunchycafe
+                    </a>
+                    <a href="https://www.facebook.com/romeobrunchycafe" class="social-link" target="_blank" rel="noopener">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        Romeo Brunch & Café
+                    </a>
+                </div>
+            </div>
+            <div class="cta-section">
+                <div class="cta-card">
+                    <h3 class="cta-card-title">Reserve su mesa y viva la experiencia Romeo</h3>
+                    <p class="cta-card-text">Ya sea para un brunch especial, una salida tranquila o un momento diferente con su mascota, en Romeo Brunch & Café siempre hay una buena razón para volver.</p>
+                    <div class="cta-buttons">
+                        <a href="https://wa.me/573001112233?text=Hola,%20quiero%20reservar%20en%20Romeo%20Brunch%20y%20Caf%C3%A9" class="btn btn-primary" target="_blank" rel="noopener">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                            </svg>
+                            Escríbenos por WhatsApp
+                        </a>
+                        <a href="https://maps.google.com" class="btn btn-secondary" target="_blank" rel="noopener">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            Cómo llegar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         8. FOOTER
+    ========================================= -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <span class="footer-name">{{Luna Brava Café Bar}}</span>
+                <span class="footer-tagline">Pet friendly · Brunch · Café de especialidad</span>
+            </div>
+            <div class="footer-contact">
+                <p class="footer-heading">Contacto</p>
+                <a href="https://wa.me/573001112233" class="footer-link" target="_blank" rel="noopener">WhatsApp: +57 300 111 2233</a>
+                <a href="https://instagram.com/romeobrunchycafe" class="footer-link" target="_blank" rel="noopener">Instagram: @romeobrunchycafe</a>
+            </div>
+            <div class="footer-location">
+                <p class="footer-heading">Ubicación</p>
+                <p class="footer-address">
+                    Calle 33 #76-18<br>
+                    Laureles · Medellín, Antioquia
+                </p>
+                <p class="footer-hours">Abierto de martes a domingo · 8:00 a.m. a 6:00 p.m.</p>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>© <span id="currentYear"></span> {{Luna Brava Café Bar}}. Todos los derechos reservados.</p>
+            <p class="footer-credit">Sitio web por <a href="https://wa.me/573005171856" target="_blank" rel="noopener">Step Up Digital Solutions</a></p>
+        </div>
+    </footer>
+
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
