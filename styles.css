@@ -429,6 +429,11 @@ ul { list-style: none; }
     }
     .main-nav.open { display: block; }
     .mobile-toggle { display: flex; }
+   .hero-image,
+    .about-image,
+    .cta-image {
+        width: 100%;
+    }
 
     .about-inner { grid-template-columns: 1fr; gap: 40px; }
     .about-image-wrapper { max-width: 480px; margin: 0 auto; }
